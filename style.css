@@ -1,8 +1,8 @@
-/* Reset */
+
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    
 }
 
 .container{
@@ -11,7 +11,7 @@
     margin:auto;
 }
 
-/* Navbar */
+
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -19,7 +19,7 @@
     padding:20px 0;
 }
 
-/* Navigation */
+
 .nav-links{
     display:flex;
     gap:40px;
@@ -32,7 +32,7 @@
     font-size:16px;
 }
 
-/* Button */
+
 .btn{
     background:#2563eb;
     color:white;
@@ -41,4 +41,58 @@
     border-radius:8px;
     cursor:pointer;
     font-weight:bold;
+}
+
+.bg-img{
+    width:100%;
+    height:auto;
+}
+
+.hero{
+    height:auto;
+    width: 100%;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+} 
+
+.hero{
+    min-height: 90vh;
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+    color:antiquewhite;
+}
+.content h1{
+    font-size :65px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.container h1{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.speaker{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 30px;
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
 }
